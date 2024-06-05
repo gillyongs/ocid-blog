@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+
+import Post from './Post'; //경기일정
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" baseUrl = "ocid-blog">
+      <Router >
+        <Routes>
+          <Route path="/" element={<Navigate to="/ocid-blog/100" />} />
+          <Route path="/ocid-blog" element={<Navigate to="/ocid-blog/100" />} />
+          <Route path="/ocid-blog/:postNumber" element={<Post />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
