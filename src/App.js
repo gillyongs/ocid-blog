@@ -9,9 +9,8 @@ function App() {
     <div className="App" baseUrl = "ocid-blog">
       <Router >
         <Routes>
-          <Route path="/" element={<Navigate to="/ocid-blog/100" />} />
-          <Route path="/ocid-blog" element={<Navigate to="/ocid-blog/100" />} />
-          <Route path="/ocid-blog/:postNumber" element={<Post />} />
+          <Route path="/" element={<Navigate to="/100" />} />
+          <Route path="/:postNumber" element={<Post />} />
         </Routes>
       </Router>
     </div>
