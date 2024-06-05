@@ -28,7 +28,7 @@ const Post = () => {
 
   return (
     <div>
-      <h1>Po1st Number: {postNumber}</h1>
+      <h1>Po2st Number: {postNumber}</h1>
       {error ? (
         <div>Error: {error}</div>
       ) : (
