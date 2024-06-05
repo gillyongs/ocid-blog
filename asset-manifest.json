@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/ocid-blog/static/css/main.f855e6bc.css",
-    "main.js": "/ocid-blog/static/js/main.865fee9b.js",
+    "main.css": "/ocid-blog/static/css/main.e6c13ad2.css",
+    "main.js": "/ocid-blog/static/js/main.7996ee29.js",
     "static/js/453.ed3810f9.chunk.js": "/ocid-blog/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/ocid-blog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ocid-blog/index.html",
-    "main.f855e6bc.css.map": "/ocid-blog/static/css/main.f855e6bc.css.map",
-    "main.865fee9b.js.map": "/ocid-blog/static/js/main.865fee9b.js.map",
+    "main.e6c13ad2.css.map": "/ocid-blog/static/css/main.e6c13ad2.css.map",
+    "main.7996ee29.js.map": "/ocid-blog/static/js/main.7996ee29.js.map",
     "453.ed3810f9.chunk.js.map": "/ocid-blog/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.865fee9b.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7996ee29.js"
   ]
 }
